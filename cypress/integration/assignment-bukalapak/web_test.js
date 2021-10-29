@@ -23,6 +23,6 @@ describe('test bukalapak web', () => {
       cy.url().should('include', 'https://www.bukalapak.com/?flash=you_login');
       cy.get('.bl-snackbar__text').children().should('contain', 'Kamu telah login sebagai Chikal Fadlillah').and('be.visible');
     })
-      
+         
 
 })

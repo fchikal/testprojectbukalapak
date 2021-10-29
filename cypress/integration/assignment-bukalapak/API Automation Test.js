@@ -14,7 +14,7 @@ describe('test bukalapak', () => {
                 expect(typeof(item.body) == "string").to.be.true;
             });
         });
-    })
+    })     
 
     it('post-api', () => {
         cy.request('https://jsonplaceholder.cypress.io/posts').as('get');
@@ -27,5 +27,5 @@ describe('test bukalapak', () => {
                 userId : 12
             },
           })
-    })
+    })   
 });
